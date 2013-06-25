@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W4C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+	<head>
+		<title>poverty hollow</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+					var glowing = $('.glow');
+					setInterval(function() {
+							glowing.hasClass('glowing') ? glowing.removeClass('glowing') : glowing.addClass('glowing');
+					} ,1000);
+					$("#show-news").hover(function(){
+						$("#show-news").fadeTo("fast",0.3);
+						},function(){
+						$("#show-news").fadeTo("fast",1.0);
+						});
+
+					$("#show-news").click(function() {
+						$("#news").fadeToggle();
+						$("#bio").fadeOut();
+						$("#shows").fadeOut();
+						$("#contact").fadeOut();
+						});
+
+					$("#show-bio").hover(function(){
+						$("#show-bio").fadeTo("fast",0.3);
+						},function(){
+						$("#show-bio").fadeTo("fast",1.0);
+						});
+
+					$("#show-bio").click(function() {
+						$("#news").fadeOut();
+						$("#bio").fadeToggle();
+						$("#shows").fadeOut();
+						$("#contact").fadeOut();
+						});
+
+					$("#show-shows").hover(function(){
+						$("#show-shows").fadeTo("fast",0.3);
+						},function(){
+						$("#show-shows").fadeTo("fast",1.0);
+						});
+					$("#show-shows").click(function() {
+						$("#news").fadeOut();
+						$("#bio").fadeOut();
+						$("#shows").fadeToggle();
+						$("#contact").fadeOut();
+						});
+					$("#show-contact").hover(function(){
+						$("#show-contact").fadeTo("fast",0.3);
+						},function(){
+						$("#show-contact").fadeTo("fast",1.0);
+						});
+					$("#show-contact").click(function() {
+						$("#news").fadeOut();
+						$("#bio").fadeOut();
+						$("#shows").fadeOut();
+						$("#contact").fadeToggle();
+						});
+
+			});
+</script>
+<link href='http://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Federo' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div id="wrapper"><p class="wrapper">
+			<div id="header"><p class="header">
+				<a href="index.html">poverty hollow</a>
+				</p></div>		
+				<div id="front">
+					<img src="img/front.jpeg" align="center">
+					<br><br>
+					est. 2013 easton & redding ct
+				</div>
+				<a href="#" id="show-news" class="glow">news</a>
+				<a href="#" id="show-bio" class="glow">bio</a>
+				<a href="#" id="show-shows" class="glow">shows</a>
+				<a href="#" id="show-contact" class="glow">contact</a>
+				<div id="news">
+					<b>NEWS</b><br><hr><br>
+
+					You can now preorder our cassette <a href="http://www.povertyhollow.bandcamp.com">here</a>
+
+
+					<br><hr><br>
+					"Rocks" streaming now! Thanks Impose!
+					<a href="http://www.imposemagazine.com/bytes/poverty-hollow-rocks">CHECK IT OUT</a>
+				</div>
+				<div id="bio">
+					<b>BIO</b><br><hr><br>
+					<img src="img/live.jpeg" align="center"><br><br>
+					"We changed the name from Suns to Poverty Hollow because I started Suns when I was 15 in 2008 and so many changes have happened to the bands sound and lineup since then. Over the past 2 years, we've solidified our lineup and found our own sound, so we wanted our band name to reflect that to us. The song 'Rocks' was actually the first song we wrote after deciding to change our name. Typically, I will write a song, and then we will almost re-write it at a practice, but sometimes I will write a song, and it just feels right to keep it as straightforward as it is without re-writing or re-arranging much. This EP features both types of those songs, displays how dynamic of a band we are, and shows how varied our sound is." - Will Rutledge
+				</div>
+				<div id="shows">
+					<b>SHOWS</b><br><hr><br>
+					July 27 - Brooklyn, NY @ Death By Audio w/Butter the Children, Flagland<br>
+					July 28 - New Brunswick, NJ @ Cooler Ranch House w/Ovlov, Honeydrum, Treatment<br>
+					July 29 - Bethlehem, PA @ Secret Art Space w/Ovlov, Literature, Wildhoney, Television Blood<br>
+					July 30 - Philadelphia, PA @ Nacho House w/Ovlov, The Eeries, Rozwell Kid<br>
+					July 1 - Danbury, CT @ Heirloom Arts Theater w/Ovlov, <br>
+					July 2 - Albany, NY @ Shred House w/Ovlov, Junior Bob, White Savages, Langosta, Ourselves<br>
+					July 3 - Northampton, MA @ TBA w/Ovlov, Pachangacha, Ghost Blood<br>
+					July 20 - Boston, MA @ JP Drive-In w/ Donovan Wolfington, Sneeze, Maura <br>
+					July 21 - New Haven, CT @ Bethesda Lutheran Church w/ Donovan Wolfington, The World is..., Dads, Pity Sex<br>
+					July 22 - Montclair, NJ @ The Meatlocker w/ Donovan Wolfington, Toasted Plastic <br>
+					July 23 - Brooklyn, NY @ Big Snow Buffalo Lodge W/  Donovan Wolfington TOONS & Frankie Cosmos<br>
+					July 24 - New Haven, CT @ Fort Flesh w/ Ovlov,  Donovan Wolfington<br>
+					July 25 - Possibly Providence, RI @ TBA, W/ Donovan Wolfington<br>
+				</div>
+				<div id="contact">
+					<b>CONTACT</b><br><hr><br>
+
+					booking - <br>
+					povertyhollowmusic@gmail.com
+					<br><br>
+					Facebook - <br>
+					<a href="http://facebook.com/povertyhollow">facebook.com/PovertyHollow</a>
+					<br><br>
+					Bandcamp - <br>
+					<a href="http://povertyhollow.bandcamp.com">PovertyHollow.bandcamp.com</a>
+					<br><br>
+				</div>
+				</p></div>
+			</body>
+		</html>
