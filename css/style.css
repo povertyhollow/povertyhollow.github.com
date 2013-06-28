@@ -31,7 +31,6 @@ body {
 	font-size: 50px;
 	top: -35px;
 	font-family: 'cedarville cursive', cursive;
-	text-shadow: 0 0 5px grey;
 }
 #header a{text-decoration:none; color:#000000 }
 #header a:link {text-decoration:none; color:#000000 }
