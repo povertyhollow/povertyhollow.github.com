@@ -21,6 +21,7 @@
 						$("#bio").fadeOut();
 						$("#shows").fadeOut();
 						$("#contact").fadeOut();
+						$("#media").fadeOut();
 						});
 
 					$("#show-bio").hover(function(){
@@ -34,6 +35,7 @@
 						$("#bio").fadeToggle();
 						$("#shows").fadeOut();
 						$("#contact").fadeOut();
+						$("#media").fadeOut();
 						});
 
 					$("#show-shows").hover(function(){
@@ -46,6 +48,7 @@
 						$("#bio").fadeOut();
 						$("#shows").fadeToggle();
 						$("#contact").fadeOut();
+						$("#media").fadeOut();
 						});
 					$("#show-contact").hover(function(){
 						$("#show-contact").fadeTo("fast",0.3);
@@ -57,6 +60,19 @@
 						$("#bio").fadeOut();
 						$("#shows").fadeOut();
 						$("#contact").fadeToggle();
+						$("#media").fadeOut();
+						});
+					$("#show-media").hover(function(){
+						$("#show-media").fadeTo("fast",0.3);
+						},function(){
+						$("#show-media").fadeTo("fast",1.0);
+						});
+					$("#show-media").click(function() {
+						$("#news").fadeOut();
+						$("#bio").fadeOut();
+						$("#shows").fadeOut();
+						$("#contact").fadeOut();
+						$("#media").fadeToggle();
 						});
 
 			});
@@ -79,6 +95,7 @@
 				<a href="#" id="show-bio" class="glow">bio</a>
 				<a href="#" id="show-shows" class="glow">shows</a>
 				<a href="#" id="show-contact" class="glow">contact</a>
+				<a href="#" id="show-media" class="glow">discog</a>
 				<div id="news">
 					<b>NEWS</b><br><hr><br>
 					
@@ -124,6 +141,16 @@
 					Bandcamp - <br>
 					<a href="http://povertyhollow.bandcamp.com">PovertyHollow.bandcamp.com</a>
 					<br><br>
+				</div>
+				<div id="media">
+					<b>DISCOGRAPHY</b><br><hr><br>
+
+					as <b>Poverty Hollow</b><br><br>
+					<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=2523839067/size=small/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="http://povertyhollow.bandcamp.com/album/poverty-hollow-3">Poverty Hollow by Poverty Hollow</a></iframe>
+					<br><br>as <b>Suns</b> <br><br>
+					<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=940376743/size=small/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="http://sunsmusic.bandcamp.com/album/the-engine-room">The Engine Room by Suns</a></iframe><br><br>
+					<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=3599062364/size=small/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="http://sunsmusic.bandcamp.com/album/be-good-boy">Be Good Boy by Suns</a></iframe><br><br>
+					<iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=347370540/size=small/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="http://sunsmusic.bandcamp.com/album/three-songs">Three Songs by Suns</a></iframe><br><br>
 				</div>
 				</p></div>
 			</body>

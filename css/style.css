@@ -53,6 +53,19 @@ body {
 	font-size: 8px;
 }
 
+#media{
+	position:absolute;
+	display:none;
+	top: 120px;
+	left: 140px;
+	width: 420px;
+	padding: 7px;
+	background-color: #2c2c2c;
+	color: #000000;
+	border-radius: 15px;
+	color: #DCDCDC;
+}
+
 #news {
 	position:absolute;
 	display:none;
@@ -111,6 +124,13 @@ body {
 	color: #000000;
 	top: 60px;
 	left: 190px;
+}
+
+#show-media {
+	position: absolute;
+	color: #000000;
+	top: 250px;
+	left: 600px;
 }
 
 #show-bio {
